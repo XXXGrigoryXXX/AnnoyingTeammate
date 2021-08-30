@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:title="Email"
-        android:id="@+id/email"
-        android:icon="@drawable/ic_email"
+        android:title="Messenger"
+        android:id="@+id/messenger"
+        android:icon="@drawable/ic_messenger"
         app:showAsAction="always"
         />
 

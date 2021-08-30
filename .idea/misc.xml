@@ -6,6 +6,7 @@
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/drawable/back.xml" value="0.34814814814814815" />
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/drawable/frame.xml" value="0.2140625" />
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/drawable/ic_forward.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/drawable/ic_messenger.xml" value="0.3" />
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout-land/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/activity_bluetooth.xml" value="0.30637636080870917" />
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/activity_main.xml" value="0.33" />
@@ -14,6 +15,7 @@
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/list_item_bluetooth.xml" value="0.5" />
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/name_device.xml" value="0.22" />
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/o.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/report.xml" value="0.32472826086956524" />
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/spinner_dropdown_item.xml" value="0.6768507638072856" />
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/spinner_item.xml" value="0.67" />
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/spinner_item_language.xml" value="0.33" />
@@ -21,6 +23,7 @@
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/menu/menu.xml" value="0.33" />
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/menu/menu_bluetooth.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/menu/menu_create_edit.xml" value="0.33" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/menu/menu_report.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/menu/menu_repot.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/a-slatinin/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/a-slatinin/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.36666666666666664" />

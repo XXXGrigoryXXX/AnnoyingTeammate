@@ -8,7 +8,7 @@
 
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/switchBluetooth"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginLeft="20dp"
@@ -39,7 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch1"
+        app:layout_constraintTop_toBottomOf="@+id/switchBluetooth"
         app:layout_constraintVertical_bias="0.0">
 
         <TextView

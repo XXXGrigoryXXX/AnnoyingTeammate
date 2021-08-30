@@ -5,6 +5,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
@@ -13,6 +14,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.CompoundButton;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import static com.example.annoyingteammate.MainActivity.APPLICATION_CONFIGURATION;
@@ -33,6 +36,9 @@ public class Bluetooth extends AppCompatActivity {
     private RecyclerView recyclerViewBluetooth;
     private RecyclerView.Adapter adapterBluetooth;
     private RecyclerView.LayoutManager layoutManagerBluetooth;
+
+    private BluetoothAdapter bluetoothAdapter;
+    private Switch switchBluetooth;
 
     // private int positionRecyclerView;
 
@@ -57,11 +63,33 @@ public class Bluetooth extends AppCompatActivity {
         recyclerViewBluetooth.setLayoutManager(layoutManagerBluetooth);
         recyclerViewBluetooth.setHasFixedSize(true);
 
+        bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        switchBluetooth = findViewById(R.id.switchBluetooth);
+
         DBBluetooth dbBluetooth = new DBBluetooth(this);
 
         SQLiteDatabase db = dbBluetooth.getWritableDatabase();
 
-        //
+        if (bluetoothAdapter.isEnabled()) {
+
+            switchBluetooth.setChecked(true);
+        }
+
+        switchBluetooth.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
+
+                if (isChecked) {
+
+                    bluetoothAdapter.enable();
+                }
+
+                else {
+
+                    bluetoothAdapter.disable();
+                }
+            }
+        });
 
         Cursor c = db.query("bluetooth", null, null, null, null, null, null, null);
 
@@ -89,7 +117,8 @@ public class Bluetooth extends AppCompatActivity {
         adapterBluetooth = new DeviceAdapter(arrayListBluetooth, (dbId, position) -> {
 
             // positionRecyclerView = position;
-            startActivity(new Intent(Bluetooth.this, CreateChangeBluetooth.class));
+            // startActivity(new Intent(Bluetooth.this, CreateChangeBluetooth.class));
+            startActivity(new Intent(Bluetooth.this, Report.class));
         });
 
         recyclerViewBluetooth.setAdapter(adapterBluetooth);
@@ -139,6 +168,7 @@ public class Bluetooth extends AppCompatActivity {
 
                 String personName = data.getStringExtra(APPLICATION_CONFIGURATION_NAME_DEVICE);
                 textViewNameDeviceData.setText(personName);
+                bluetoothAdapter.setName(personName);
 
             }
         }
