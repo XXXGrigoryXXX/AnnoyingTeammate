@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/drawable/back.xml" value="0.34814814814814815" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/drawable/frame.xml" value="0.2140625" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/drawable/ic_forward.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout-land/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/activity_bluetooth.xml" value="0.30637636080870917" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/bluetooth.xml" value="0.33" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/create_change_bluetooth.xml" value="0.33" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/list_item_bluetooth.xml" value="0.5" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/name_device.xml" value="0.22" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/o.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/spinner_dropdown_item.xml" value="0.6768507638072856" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/spinner_item.xml" value="0.67" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/spinner_item_language.xml" value="0.33" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/layout/spinner_item_notifications.xml" value="0.33559782608695654" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/menu/menu.xml" value="0.33" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/menu/menu_bluetooth.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/menu/menu_create_edit.xml" value="0.33" />
+        <entry key="..\:/Users/a-slatinin/Android_Projects/AnnoyingTeammate/app/src/main/res/menu/menu_repot.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/a-slatinin/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/a-slatinin/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

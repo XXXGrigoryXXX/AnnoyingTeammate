@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Annoying Teammate</string>
+    <string name="text_of_agreement">Торжественно клянусь, что замышляю шалость и только шалость</string>
+    <string name="swear">Клянусь</string>
+    <string name="detailed_information">Для более подробной информации обращайтесь в \"Гарри Поттер\"</string>
+    <string name="device_search">Поиск утройства</string>
+    <string name="turning_on_bluetooth">Включить</string>
+    <string name="name_device">Имя устройства</string>
+</resources>
